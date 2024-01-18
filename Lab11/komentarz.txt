@@ -10,3 +10,11 @@ Dla poprawionego kodu:
 Przepustowość: 18.9/min (ale przy received KB/sec = ok. 7 - dla takiej samej wartości, jak na górze wyszłoby około 80/min, ok. 1.5/sek)
 
 
+Zadanie 2.
+Osiągnięta średnia przepustowość: 2.0/sek
+Docelową przepustowością na jest ok. 5.5 kartki na sekundę, zatem realne osiągi są zdecydowanie poniżej zakładanych.
+
+Rekomendowana liczba drukarek: 30.
+
+Z prostej matematyki wynika, że skoro osiągana przepustowość wynosi 2/sek, a chcemy mieć przepustowość równą 5.5/sek, to należy liczbę drukarek przemnożyć przez 2.75 - daje to w zaokrągleniu 28.
+Minimalna liczba drukarek to zatem 28, a 30 daje pewien zapas przepustowości (osiągnięto 5.9/sek).
