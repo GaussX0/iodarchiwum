@@ -1,0 +1,12 @@
+Zadanie 1.
+Dla kodu bazowego:
+Średni czas odpowiedzi: 1871ms
+Przepustowość: 1.4/sek (przy received KB/sec = ok. 30)
+
+Wprowadzona optymalizacja: averageSpendings() wykonywane jest teraz tylko raz na początku, zamiast przy każdym requeście.
+
+Dla poprawionego kodu:
+Średni czas odpowiedzi: 1413ms
+Przepustowość: 18.9/min (ale przy received KB/sec = ok. 7 - dla takiej samej wartości, jak na górze wyszłoby około 80/min, ok. 1.5/sek)
+
+
